@@ -1,0 +1,331 @@
+@font-face {
+    font-family: myfont;
+    src: url(Lemon-Regular.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+.logo-2 {
+    position: absolute;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.head-1 {
+    position: absolute;
+    left: 37%;
+    top: 3%;
+    text-transform: capitalize;
+    font-family: myfont;
+}
+.copy-links {
+    position: absolute;
+    left: 80%;
+    top: 3%;
+    font-family: myfont;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 65px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    padding: 5px 35px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #000;
+    color: lightgreen;
+}
+.textarea-1 {
+    position: absolute;
+    left: 35%;
+}
+.heading1 {
+    position: absolute;
+    top: 160px;
+    left: 43%;
+    color: lightgreen;
+    font-family: myfont;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.copy-area {
+    position: absolute; 
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.copy-area textarea {
+   box-sizing: border-box;
+   background-color: #000;
+   color: yellow;
+   height: 500px;
+   width: 480px;
+   resize: none;
+   border: none;
+   outline: none;
+   padding: 11px;
+}
+.copy-area button {
+    position: absolute;
+    top: 100%;
+    color: #000;
+}
+.copy-area .btn-1 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: 270px;
+    border: 1px solid lightgreen;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+/*.copy-area .btn-2 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: 670px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #fff;
+}
+.copy-area .btn-3 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: 1160px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: #fff;
+}*/
+.heading2 {
+    position: absolute;
+    top: 110%;
+    left: 45.5%;
+    color: lightgreen;
+    font-family: myfont;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.copy-area2 {
+    position: absolute;
+    top: 120%;
+    left: 35%;
+}
+.copy-area2 .btn-4 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: 550px;
+    top: 35%;
+    border: 1px solid rgb(0, 190, 253);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.copy-area2 textarea {
+    box-sizing: border-box;
+   background-color: #000;
+   color: yellow;
+   height: 500px;
+   width: 480px;
+   resize: none;
+   border: none;
+   outline: none;
+   padding: 11px;
+}
+.copy-area3 textarea {
+    box-sizing: border-box;
+   background-color: #000;
+   color: yellow;
+   height: 500px;
+   width: 480px;
+   resize: none;
+   border: none;
+   outline: none;
+   padding: 11px;
+}
+.copy-area3 {
+    position: absolute; 
+    top: 210%;
+    left: 33.5%;
+    right: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.heading3 {
+    position: absolute;
+    top: 200%;
+    left: 40%;
+    color: lightgreen;
+    font-family: myfont;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.copy-area3 .btn-5 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: -200px;
+    top: 40%;
+    border: 1px solid rgb(0, 190, 253);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.copy-area button:active {
+    background-color: lightgreen;
+    color: #fff;
+}
+.copy-area2 button:active {
+    background-color: lightgreen;
+    color: #fff;
+}
+.copy-area3 button:active {
+    background-color: lightgreen;
+    color: #fff;
+}
+.copy-area4 button:active {
+    background-color: lightgreen;
+    color: #fff;
+}
+.copy-area button::before {
+    content: "";
+    font-size: 15px;
+    display: none;
+}
+.copy-area.active button::before {
+    display: block;
+}
+.css-codearea h1 {
+    position: absolute;
+    top: 300%;
+    left: 33%;
+    text-transform: capitalize;
+    font-family: myfont;
+    letter-spacing: 25px;
+}
+.heading4 {
+    position: absolute;
+    top: 310%;
+    left: 45%;
+    font-family: myfont;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: lightgreen;
+}
+.copy-area4 {
+    position: absolute; 
+    top: 320%;
+    left: 33.5%;
+    right: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.copy-area4 textarea {
+    box-sizing: border-box;
+   background-color: #000;
+   color: yellow;
+   height: 500px;
+   width: 480px;
+   resize: none;
+   border: none;
+   outline: none;
+   padding: 11px;
+}
+.copy-area4 .btn-6 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: 550px;
+    top: 40%;
+    border: 1px solid rgb(0, 190, 253);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+.headings5 {
+    position: absolute;
+    top: 401%;
+    left: 45%;
+    font-family: myfont;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color: lightgreen;
+}
+.copy-area5 {
+    position: absolute; 
+    top: 410%;
+    left: 33.5%;
+    right: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.copy-area5 textarea {
+    box-sizing: border-box;
+   background-color: #000;
+   color: yellow;
+   height: 500px;
+   width: 480px;
+   resize: none;
+   border: none;
+   outline: none;
+   padding: 11px;
+}
+.copy-area5 .btn-7 {
+    position: absolute;
+    height: 25px;
+    width: 150px;
+    left: -200px;
+    top: 40%;
+    border: 1px solid rgb(0, 190, 253);
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: lightgreen;
+}

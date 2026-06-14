@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myfont;
+    src: url(Lemon-Regular.ttf);
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.bg-image1 {
+    filter: blur(4px);
+}
+.head-1 {
+    color: lightgreen;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+    font-family: myfont;
+}
+.email-1 {
+    color: lightgreen;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    text-transform: capitalize;
+    font-family: myfont;
+}
+.phone-no {
+    color: lightgreen;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    text-transform: capitalize;
+    font-family: myfont;
+}
+.input {
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+    background-color: lightgreen;
+    border: 50px solid lightgreen;
+    border-radius: 10%;
+    border-width: 5%;
+    opacity: 0.7;
+}
+.input h3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.msg-1 {
+    position: absolute;
+    top: -7%;
+    left: 6%;
+    opacity: 0.9;
+}
